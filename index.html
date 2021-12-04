@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            max-width: 100vw;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0px;
+           
+        }
+    .image{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('https://cdnb.artstation.com/p/assets/images/images/013/535/601/large/supawit-oat-fin1.jpg?1540053395');
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    button{
+        position: absolute;
+        width: 250px;
+        height: 70px;
+        bottom: 120px;
+        left: 44%;
+        background-color: #82A5ff;
+        color:#52442A;
+        border-radius: 10px;
+        border: 1px solid #52442A;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="image">
+        <button>Start game</button>
+    </div>
+    <script>
+        const btn= document.querySelector('button')
+        btn.addEventListener('click', function(){
+            location.href="./game.html"
+        })
+    </script>
+</body>
+</html>

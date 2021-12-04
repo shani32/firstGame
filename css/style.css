@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4z_145Mj_2DAvJ-qyaSkUAJ46SxsfM7JVhNKvRIzN048c0Z6tbzd&s=0) no-repeat center center/cover;
+}
+
+.game-board {
+    display: grid;
+    background-color: rgb(77, 127, 192);
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    border: 1px solid black;
+    width: 85vmax;
+    background: url('https://images.financialexpress.com/2020/04/sky1200.jpg?w=1200&h=800&imflag=true') no-repeat center center/cover;
+}
+
+.game-side-bar {
+    width: 300px;   
+    
+}
+.tools{
+    border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    
+}
+.collectedParts{
+    border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    /* border-radius: 10px; */
+}
+
+.ground {
+    background: url('../assets/images/ground.png') no-repeat center center/cover;
+}
+
+
+.grass {
+    background: url('../assets/images/tree.png') no-repeat center center/cover;
+}
+
+.stone {
+    background: url('../assets/images/stone.png') no-repeat center center/cover;
+}
+
+.cloud {
+    background-color: #fff;
+}
+
+.wood {
+    background: url('../assets/images/wood.png') no-repeat center center/cover;
+}
+.water{
+    background: url('../assets/images/water.jpg') no-repeat center center/cover;
+}
+.twitter{
+    background: url('../assets/images/twitter.png') no-repeat center center/cover;
+}
+
+
+.axe{
+    background: url('../assets/images/axe.png') no-repeat center center/cover;
+}
+.pickAxe{
+    background: url('../assets/images/pixkaxe.png') no-repeat center center/cover;
+}
+.shofel{
+    background: url('../assets/images/shovel.png') no-repeat center center/cover;
+}
+.sky{
+    background: transparent ;
+}
